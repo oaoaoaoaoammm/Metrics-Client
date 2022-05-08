@@ -1,5 +1,5 @@
 # How it works?
-```Agent.exe``` - microservice which collect system metrics and safe them into data base. It create local server where you can see, delete, update or create them. Which metrics it collect? These:
+```Agent.exe``` - microservice which collects system metrics and safes them into data base. It creates local server where you can see, delete, update or create them. Which metrics does it collect? These:
 
 - Cpu
 - Hdd
@@ -7,7 +7,7 @@
 - Network
 - Dotnet
 
-```Client.exe``` - desktop app based on wpf technology. It makes request every 1.2 second to the local server and display information graphically.
+```Client.exe``` - desktop app based on wpf technology. It makes request every 1.2 second to the local server and displays information graphically.
 
 
 ![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/exampleofwork.png)
