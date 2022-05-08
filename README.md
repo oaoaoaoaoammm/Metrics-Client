@@ -1,6 +1,3 @@
-# Welcome to Metrics Client
-![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/exampleofwork.png)
-# What is it?
 
 # How to launch?
 You should have downloaded [.Net 6 Framework](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
@@ -41,3 +38,7 @@ Commands are described in more detail in [controllers](https://github.com/ddoo5/
 - Dotnet
 
 ```Client.exe``` - desktop app based on wpf technology. It makes request every 1.2 second to the local server and display information graphically.
+
+
+![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/exampleofwork.png)
+
