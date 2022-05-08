@@ -1,0 +1,16 @@
+﻿<Window x:Class="Metrics_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metrics_app"
+        mc:Ignorable="d"
+        Title="Metrics Client" Height="720" Width="1280">
+    <Grid>
+        <local:CpuControl Loaded="CpuControl_Loaded" Margin="-300,-120,262,98"/>
+        <local:NetworkControl Loaded="NetworkControl_Loaded" Margin="200,-120,262,98"/>
+        <local:HddControl Loaded="HddControl_Loaded" Margin="600,-120,262,98"/>
+        <local:RamControl Loaded="RamControl_Loaded" Margin="850,-120,0,98"/>
+        <local:DotnetControl Loaded="DotnetControl_Loaded" Margin="-160,430,0,0"/>
+    </Grid>
+</Window>

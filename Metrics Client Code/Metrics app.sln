@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metrics app", "Metrics app\Metrics app.csproj", "{1F0F81C8-4D9B-4C10-9BBF-F86B0027F61D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAgent", "MAgent\MAgent.csproj", "{B12B1DC9-E25D-42E1-9EE2-0CB1AE73A891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F0F81C8-4D9B-4C10-9BBF-F86B0027F61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0F81C8-4D9B-4C10-9BBF-F86B0027F61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0F81C8-4D9B-4C10-9BBF-F86B0027F61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0F81C8-4D9B-4C10-9BBF-F86B0027F61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12B1DC9-E25D-42E1-9EE2-0CB1AE73A891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12B1DC9-E25D-42E1-9EE2-0CB1AE73A891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12B1DC9-E25D-42E1-9EE2-0CB1AE73A891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12B1DC9-E25D-42E1-9EE2-0CB1AE73A891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB8B5E48-C302-4FB8-B1E7-281B261F14D1}
+	EndGlobalSection
+EndGlobal
