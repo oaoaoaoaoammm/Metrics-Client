@@ -1,3 +1,17 @@
+# How it works?
+```Agent.exe``` - microservice which collect system metrics and safe them into data base. It create local server where you can see, delete, update or create them. Which metrics it collect? These:
+
+- Cpu
+- Hdd
+- Ram
+- Network
+- Dotnet
+
+```Client.exe``` - desktop app based on wpf technology. It makes request every 1.2 second to the local server and display information graphically.
+
+
+![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/exampleofwork.png)
+
 
 # How to launch?
 You should have downloaded [.Net 6 Framework](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
@@ -30,17 +44,3 @@ Commands are described in more detail in [controllers](https://github.com/ddoo5/
 ![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/hddexample.png)
 ![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/networkexample.png)
 ![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/ramexample.png)
-# How it works?
-```Agent.exe``` - microservice which collect system metrics and safe them into data base. It create local server where you can see, delete, update or create them. Which metrics it collect? These:
-
-- Cpu
-- Hdd
-- Ram
-- Network
-- Dotnet
-
-```Client.exe``` - desktop app based on wpf technology. It makes request every 1.2 second to the local server and display information graphically.
-
-
-![](https://github.com/ddoo5/Metrics-Client/blob/vid/video/exampleofwork.png)
-
